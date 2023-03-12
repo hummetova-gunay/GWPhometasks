@@ -1,0 +1,95 @@
+#h11{
+    text-align: center;
+    color: aquamarine;
+}
+#h12{
+    text-align: center;
+    color: black;
+}
+#sec1{
+    background-color: rgb(170, 238, 185);
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.label{
+    color: blue;
+}
+input:hover{
+    background-color: rgb(145, 219, 145);
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+.input1{
+    border-color: sandybrown;
+}
+input[type="radio"]{
+    accent-color: rgb(245, 10, 245);
+}
+#button{
+    background-color: brown;
+    color: blue;
+}
+#button:hover{
+    background-color: green;
+    color:brown ;
+}
+#h12{
+    text-align: center;
+    color: red;
+}
+#sec2{
+    background-color: rgb(33, 83, 67);
+}
+#div2{
+    display: flex;
+}
+#txtarea{
+   background:  rgb(33, 83, 67);
+  resize: none;
+}
+textarea:focus::placeholder{
+    color: transparent;
+}
+input[type="file"]{
+    color: aqua;
+}
+#date {
+    background:  rgb(33, 83, 67);
+}
+#datechooser{
+    color: blueviolet;
+}
+#yourage{
+    background:  rgb(33, 83, 67);
+}
+#age{
+    color: blueviolet;
+}
+#savebutton{
+    background-color: rgb(170, 88, 88);
+}
+#savebutton:hover{
+    background-color: rgb(103, 103, 219);
+    color: rgb(255, 5, 151);
+}
+#h13{
+    color: brown;
+    text-align: center;
+}
+#sec3{
+    background-color: rgb(78, 156, 78);
+}
+ul{
+    color: rgb(182, 75, 75);
+}
+ol{
+    color: rgb(121, 88, 5);
+}
+ol + p {
+    color: rgb(1, 247, 185);
+
+}
